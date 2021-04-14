@@ -10,7 +10,7 @@ public class TestProperties {
 	public static void main(String[] args) throws IOException {
 		
 		System.out.println(System.getProperty("user.dir"));
-		
+		//This is a test
 		Properties config = new Properties();
 		Properties OR = new Properties();
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\properties\\config.properties");
