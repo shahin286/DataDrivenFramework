@@ -1,0 +1,136 @@
+11:22:32,247 DEBUG devpinoyLogger:72 - Config File Loaded!!!
+11:22:32,250 DEBUG devpinoyLogger:88 - OR File Leaded !!!!
+11:22:33,767 DEBUG RequestAddCookies:123 - CookieSpec selected: standard
+11:22:33,779 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+11:22:33,780 DEBUG PoolingHttpClientConnectionManager:265 - Connection request: [route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+11:22:33,807 DEBUG PoolingHttpClientConnectionManager:309 - Connection leased: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+11:22:33,810 DEBUG MainClientExec:235 - Opening connection {s}->https://raw.githubusercontent.com:443
+11:22:33,840 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to raw.githubusercontent.com/185.199.110.133:443
+11:22:33,842 DEBUG SSLConnectionSocketFactory:337 - Connecting socket to raw.githubusercontent.com/185.199.110.133:443 with timeout 0
+11:22:33,909 DEBUG SSLConnectionSocketFactory:390 - Enabled protocols: [TLSv1.2, TLSv1.1, TLSv1]
+11:22:33,910 DEBUG SSLConnectionSocketFactory:391 - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+11:22:33,910 DEBUG SSLConnectionSocketFactory:395 - Starting handshake
+11:22:33,980 DEBUG SSLConnectionSocketFactory:425 - Secure session established
+11:22:33,981 DEBUG SSLConnectionSocketFactory:426 -  negotiated protocol: TLSv1.2
+11:22:33,981 DEBUG SSLConnectionSocketFactory:427 -  negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+11:22:33,981 DEBUG SSLConnectionSocketFactory:435 -  peer principal: CN=www.github.com, O="GitHub, Inc.", L=San Francisco, ST=California, C=US
+11:22:33,982 DEBUG SSLConnectionSocketFactory:444 -  peer alternative names: [www.github.com, *.github.com, github.com, *.github.io, github.io, *.githubusercontent.com, githubusercontent.com]
+11:22:33,982 DEBUG SSLConnectionSocketFactory:448 -  issuer principal: CN=DigiCert SHA2 High Assurance Server CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+11:22:33,984 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.106:51907<->185.199.110.133:443
+11:22:33,984 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 30000
+11:22:33,985 DEBUG MainClientExec:256 - Executing request GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+11:22:33,985 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+11:22:33,985 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+11:22:33,987 DEBUG headers:133 - http-outgoing-0 >> GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1
+11:22:33,987 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.6
+11:22:33,987 DEBUG headers:136 - http-outgoing-0 >> Connection: keep-alive
+11:22:33,987 DEBUG headers:136 - http-outgoing-0 >> Host: raw.githubusercontent.com
+11:22:33,987 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+11:22:33,988 DEBUG wire:73 - http-outgoing-0 >> "GET /bonigarcia/webdrivermanager/master/src/main/resources/versions.properties HTTP/1.1[\r][\n]"
+11:22:33,988 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.6[\r][\n]"
+11:22:33,988 DEBUG wire:73 - http-outgoing-0 >> "Connection: keep-alive[\r][\n]"
+11:22:33,988 DEBUG wire:73 - http-outgoing-0 >> "Host: raw.githubusercontent.com[\r][\n]"
+11:22:33,988 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:22:33,988 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+11:22:34,009 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+11:22:34,009 DEBUG wire:73 - http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+11:22:34,010 DEBUG wire:73 - http-outgoing-0 << "Content-Length: 945[\r][\n]"
+11:22:34,010 DEBUG wire:73 - http-outgoing-0 << "Cache-Control: max-age=300[\r][\n]"
+11:22:34,010 DEBUG wire:73 - http-outgoing-0 << "Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox[\r][\n]"
+11:22:34,010 DEBUG wire:73 - http-outgoing-0 << "Content-Type: text/plain; charset=utf-8[\r][\n]"
+11:22:34,010 DEBUG wire:73 - http-outgoing-0 << "ETag: W/"51d5cd26378bf90474fa9ce82b2e150346e35f7b4f711316d032509c000969eb"[\r][\n]"
+11:22:34,010 DEBUG wire:73 - http-outgoing-0 << "Strict-Transport-Security: max-age=31536000[\r][\n]"
+11:22:34,010 DEBUG wire:73 - http-outgoing-0 << "X-Content-Type-Options: nosniff[\r][\n]"
+11:22:34,011 DEBUG wire:73 - http-outgoing-0 << "X-Frame-Options: deny[\r][\n]"
+11:22:34,011 DEBUG wire:73 - http-outgoing-0 << "X-XSS-Protection: 1; mode=block[\r][\n]"
+11:22:34,011 DEBUG wire:73 - http-outgoing-0 << "X-GitHub-Request-Id: 1A8E:41E1:B23F57:E5A436:606BBB0F[\r][\n]"
+11:22:34,011 DEBUG wire:73 - http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+11:22:34,011 DEBUG wire:73 - http-outgoing-0 << "Accept-Ranges: bytes[\r][\n]"
+11:22:34,011 DEBUG wire:73 - http-outgoing-0 << "Date: Tue, 06 Apr 2021 16:22:32 GMT[\r][\n]"
+11:22:34,011 DEBUG wire:73 - http-outgoing-0 << "Via: 1.1 varnish[\r][\n]"
+11:22:34,011 DEBUG wire:73 - http-outgoing-0 << "X-Served-By: cache-dfw18628-DFW[\r][\n]"
+11:22:34,012 DEBUG wire:73 - http-outgoing-0 << "X-Cache: HIT[\r][\n]"
+11:22:34,012 DEBUG wire:73 - http-outgoing-0 << "X-Cache-Hits: 1[\r][\n]"
+11:22:34,012 DEBUG wire:73 - http-outgoing-0 << "X-Timer: S1617726153.687454,VS0,VE1[\r][\n]"
+11:22:34,012 DEBUG wire:73 - http-outgoing-0 << "Vary: Authorization,Accept-Encoding[\r][\n]"
+11:22:34,012 DEBUG wire:73 - http-outgoing-0 << "Access-Control-Allow-Origin: *[\r][\n]"
+11:22:34,012 DEBUG wire:73 - http-outgoing-0 << "X-Fastly-Request-ID: fa856a68b2bc57a3f2a24e50423bdc0d09874705[\r][\n]"
+11:22:34,012 DEBUG wire:73 - http-outgoing-0 << "Expires: Tue, 06 Apr 2021 16:27:32 GMT[\r][\n]"
+11:22:34,012 DEBUG wire:73 - http-outgoing-0 << "Source-Age: 53[\r][\n]"
+11:22:34,013 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+11:22:34,015 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+11:22:34,015 DEBUG headers:125 - http-outgoing-0 << Connection: keep-alive
+11:22:34,015 DEBUG headers:125 - http-outgoing-0 << Content-Length: 945
+11:22:34,015 DEBUG headers:125 - http-outgoing-0 << Cache-Control: max-age=300
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << Content-Type: text/plain; charset=utf-8
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << ETag: W/"51d5cd26378bf90474fa9ce82b2e150346e35f7b4f711316d032509c000969eb"
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << Strict-Transport-Security: max-age=31536000
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << X-Content-Type-Options: nosniff
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << X-Frame-Options: deny
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << X-XSS-Protection: 1; mode=block
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << X-GitHub-Request-Id: 1A8E:41E1:B23F57:E5A436:606BBB0F
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << Content-Encoding: gzip
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << Accept-Ranges: bytes
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << Date: Tue, 06 Apr 2021 16:22:32 GMT
+11:22:34,016 DEBUG headers:125 - http-outgoing-0 << Via: 1.1 varnish
+11:22:34,017 DEBUG headers:125 - http-outgoing-0 << X-Served-By: cache-dfw18628-DFW
+11:22:34,017 DEBUG headers:125 - http-outgoing-0 << X-Cache: HIT
+11:22:34,017 DEBUG headers:125 - http-outgoing-0 << X-Cache-Hits: 1
+11:22:34,017 DEBUG headers:125 - http-outgoing-0 << X-Timer: S1617726153.687454,VS0,VE1
+11:22:34,017 DEBUG headers:125 - http-outgoing-0 << Vary: Authorization,Accept-Encoding
+11:22:34,017 DEBUG headers:125 - http-outgoing-0 << Access-Control-Allow-Origin: *
+11:22:34,017 DEBUG headers:125 - http-outgoing-0 << X-Fastly-Request-ID: fa856a68b2bc57a3f2a24e50423bdc0d09874705
+11:22:34,017 DEBUG headers:125 - http-outgoing-0 << Expires: Tue, 06 Apr 2021 16:27:32 GMT
+11:22:34,017 DEBUG headers:125 - http-outgoing-0 << Source-Age: 53
+11:22:34,020 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+11:22:34,024 DEBUG wire:73 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x8d][0x96][0xcb][0x8e][0xe3]6[0x10]E[0xf7][0xfe][\n]"
+11:22:34,024 DEBUG wire:73 - http-outgoing-0 << "[0x1][0xb3]n[0x8a][0xef]G[0x3][0xdc]d&[0xc9]*[0xc8]"[0xf9][0x1][0xb5][0xcd][0xb6][0x85][0xb1]MCr[0x8f][0x83]|}[0xaa][0xf8][0x90][0xd9]D[0x2]d[0xd1]p[0xdf]#[0xb2]X[0x14][0x8b][0xb7][0xf4]e[0xf8][0xf3]4[0xaf][0xc3][0xfb]|[0xe][0xc3]>^[0xef][0xd3]|][0x87][0xfb])[0xc][0xdf][0xaf][0xf1]q[0x1d][0xe][0xcb][0xfc]#,[0x3][0xfc][0xad]s[0x84]'[0xfb]x[0xb9]M[0xf7][0xf9][\r]F?[0xe6][0xfb])[0x8d][0xdc][0xc7]e[0x9][0xeb]-^[0xf][0xf3][0xf5]8[0xbc]-[0xf1][0xb1]>[0xa7][0xec]v_[0x86][0x9f]2z[0x1d]~[0x8d][0xf1][0x8]3[0xbf][0x9e][0x96]x[0x9][0xc3]t=[0xe4][0xe7][0x8f][0xcb][0xf0]2|KK[0xbd][0xe][0xfb][0xf4]4/[0xc][0x93][0xff][0x88][0x1f][0xcb]>[0xbc][0xe][0xa7][0xfb][0xfd][0xf6]:[0x8e][0xed]S[0xb2]/[0xb3]I\[0x8e][0xe3][0x1][0xf2]=[0xc7][0xe9][0xb0][0xee][0xf2][0x18]G[0xbd][0xa3][0x84][0x12])[0x5]%\[0x16]j[0x9d][0xb7][0xe][0xa9][0x80][0x1f].*[0xb5][0xde][0xda]D[0xb9]$NWj[0xbc]5H[0xb9][0xa5][0xc4][0xda]J[0xb5][0xb7]:Q[0x9]qy[0xa5][0xca][[0x85][0x94]YA[0xac][0xa9]Tz+[0x13][0x95][0x86][0x8]Z[0xa9][0xf0]0[0x8])[0x15]D[0xb8]J[0x99][0xb7][0xc])[0x95][0x92]0[0xb1]-G[0xbd][0xc5]m[0x8][0x7][0xb9]0Zs3[0xce][0x1b][0x97][0xb0]TDl[0xd4]zc[0x13][0xa5][0x10][0x83][0xaa][0x8a][0x8d]7[0xb8][0x11]a[0xb5][0x82][0xf8][0x95]jot[0xa2][0xd4][0x11][0xc6][0xb7][0x18][0xca][0x1b][0xdc][0x89]0[0x86][0x12][0xf6][0x1c]-[0xbd][0x91][0x9]sG[0xb6][0xb1][0xc2][0x1b][0xdc][0x89][0xd0][0xb0]!]S6[0xdc]s"[0xb7]1[0xec][0x93][0xa2][0xa8]jb[0xda][0xa1][0xaa]g[0xa3]-[0xaa][0xfa]F[0xb5]A[0xc5][0xaa][0xd2][0xa8]j2Z[0x81][0xda]^[0x91][0x96][0xa8][0xea];[0xd7][0x2]U]Oc.b[[0xf]s[0x11][0xdb]z[0x98][0x8b][0x10][0x9f]J[0xf4][0xb7][0xf8][0xf7]|>O[0xc3]/[0xf3][0x12][0xde][0xe3]_M][0x1e][0xc3][0xfe]{[0xfc][0xd7][0xb2]\[0xa1].[0x8f]p[0x1b]>[0xde][0x8][0xdc][0x8f][0xf1][0x92]C[0x8c][0xcd][0x84]q[0x9][0xe7]0[0xad]a[0xdd][0xbd][0xe7][0xb8]PZP<p[0x80][0x1b][0xd0]=P=[0x90]=[0x10][0x8]l[0x3]x[0xf][0x18][0x2][0xd3][0x0][0xda][0x1]([0xa3][0xe]X[0x4][0xba][0x1][0xa6][0x7][0xba][0x7][0xaa][0x7][0xb2][0x7][0xa2][0x7][0xbc][0x7][0xac][0x7][0xb4][0x3][0xda][0xf5] e[0xaa][0x1a][0x90]2[0x95][\r][0xd0]=P=H[0x99][0x8a][0x6][0x88][0x1e][0xa4]Ly[0x3]R[0xa6][0xac][0x1][0xb4][0x3][0xca][0xf5][0xc0][0xf6][0xc0][0xf4] eJ[0x1b][0xa0]*h[0x8b][0xf3][0xf7][X[0xa6][0xa6]$#[0xea][0xff]S[0x92]i[0xe0][0x1a][0xdf][0xef][0x8f]i[0x9]YU[0xef][0xec][0xb]4=[0x84]#}[0xba][0xa4][0xe5][0x5][0xca][0xc6]$[0x19][0x95][0x85][0x8a][0xc6]$[0xb5])[0x90]7[0x1e]ii[0x81][0xac][0xb1]HFkT[0xda]X[0xa4]u[0x19][0xc2]a?[0x1d][0xd2][0x95][0xa0]p[0xe0][0x8d]A2Q[0xa8][0xf9][0xe4][0x8f]e-8[0xfa][0xa7]=[0x9a][0x1a]U5[0xee]hkT[0xd9]x#[0xe3]u[0xbe]h[0xbd]Q[0x94]\[0xa1][0x18][0x1a]k[0xdc][0xd6]*[0x96][0x96][0x84]r[0xad]([0x86][0x96]E[0xf1][0xb3],[0x8a][0x9d]eQ[0xdc],[0x8b]bfY[0x14]/[0xcb][0xa2]XY[0x16],{W[0x16][0xb4][0x11][0x12]3[0xa8][0x19]K[0xcc]@[0x94]u$f[0xc0][0xcb][0xcb][0x90]:[0x8b]O[0xe6]7[0xef][0x97][0x88]e2[0xfc]|8[0x86][0xa6][0xd0].k[0x0][0xf0][0x9f][0x95]v[0x8]?[0xc2][0x19][0xa3][0x92]K[0x8d][0x90][0xca].\_>[0xd6]qc/[0x18]d[0xbc][0xc7]x^[0xc7]Gx+[0x95][0xb7]C[0xea][0x98]wx[0xb6]6][0xe8]DJ[0xfb][0xb6][0xc]^u"[0xb5]u[0x1b][0xe8]C6[0x93][0xd2][0xb6][\r]U[0xf8]f[0x13]*=[kW[0x2][0xd5]~[0xad][0xe1][0x16]k[0x97]Qi[0xd6]JK[0x98][0x9b]Q[0xe9][0xd4]*[0xd9]C"[0xb5]KC[0xcd][0xa8][0xb2][0x1e][0x94]5G[0xa4]\[0xcd][0xa9]6m[0xa6]![0xaf][0x8c]j[0xc3][0xd6][0xc][0xaa]4[0xf][0xdb][0xba]5[0x13]%z[0xed][0xd4][0x1c][0x8b]/[0x93][0xd2][0xa4][0xb9][0xd8]Hi[0xd0]x_[\n]"
+11:22:34,025 DEBUG wire:73 - http-outgoing-0 << ")[0xbd][0x99][0x9][0xf8]x[0xc9]HJ[[0xc2][0xb]|[0xb6][0xdd][0xa7][0xf3]9[0x1c]2[0xe4]^[0x13]f[0x18][0xb4][0xba]$[0x99][0x87][0xda][0xd6][0xdc][0xe5][0xed]K[0xea][0xe1][0x2])[0xaa]E[0x92][0xc2]z[0xb8][0x8f]R[0xb8],9V#|;X[0x9d]%[0xf5][0xc]o+[0x14][0xeb]?zA[0xec]W,[\n]"
+11:22:34,025 DEBUG wire:87 - http-outgoing-0 << "[0x0][0x0]"
+11:22:34,041 DEBUG PoolingHttpClientConnectionManager:341 - Connection [id: 0][route: {s}->https://raw.githubusercontent.com:443] can be kept alive indefinitely
+11:22:34,041 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 0
+11:22:34,041 DEBUG PoolingHttpClientConnectionManager:348 - Connection released: [id: 0][route: {s}->https://raw.githubusercontent.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+11:22:36,839 DEBUG devpinoyLogger:106 - Chrome Browser Lunched
+11:22:39,827 DEBUG devpinoyLogger:115 - Navigated to: http://www.way2automation.com/angularjs-protractor/banking/#/login
+11:22:43,152 DEBUG devpinoyLogger:20 - Inside Login Test
+11:22:43,160 DEBUG devpinoyLogger:21 - The Page Title: Protractor practice website - Banking App
+11:22:43,325 DEBUG devpinoyLogger:22 - true
+11:22:43,430 DEBUG devpinoyLogger:24 - Successfully clicked on bank manager login button
+11:22:43,761 DEBUG devpinoyLogger:29 - Login Successfully Executed
+11:22:44,498 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:22:44,499 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:22:44,502 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:22:44,502 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:22:44,503 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/moham/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:22:44,983 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:22:44,984 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:22:44,984 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:22:44,985 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:22:44,986 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/moham/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:22:45,021 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:22:45,022 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:22:45,022 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:22:45,022 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:22:45,023 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/moham/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:22:46,271 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:22:46,271 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:22:46,272 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:22:46,272 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:22:46,272 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/moham/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:22:46,299 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:22:46,300 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:22:46,300 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:22:46,301 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:22:46,301 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/moham/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:22:46,953 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:22:46,953 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:22:46,954 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:22:46,954 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:22:46,954 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/moham/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:22:47,015 DEBUG cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+11:22:47,016 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+11:22:47,016 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+11:22:47,018 DEBUG cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+11:22:47,018 DEBUG cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/moham/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+11:22:47,758 DEBUG devpinoyLogger:211 - Test Execution Completed and Browser Closed
